@@ -1,0 +1,177 @@
+---
+title: "Mortalité et accessibilité aux soins par zone d'emploi"
+author: "Matthieu Delaunay"
+date: "2026-03-12"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+# Packages nécessaires (à installer au préalable, voir le README) :
+# install.packages(c("ggplot2", "ggcorrplot", "gtExtras"))
+library(ggplot2)
+library(ggcorrplot)
+library(gtExtras)
+```
+
+# 1. Chargement et préparation des données
+
+Les fichiers CSV sont attendus dans le dossier `data/`.
+
+```{r fonctions}
+# Lit un fichier CSV du dossier data/
+charger <- function(fichier) {
+  read.csv(file.path("data", fichier), sep = ",", dec = ".")
+}
+
+# Convertit en numérique les colonnes indiquées
+en_numerique <- function(df, colonnes) {
+  df[colonnes] <- lapply(df[colonnes], as.numeric)
+  df
+}
+```
+
+## Mortalité
+
+```{r mortalite}
+mortalite <- read.csv(file = "Morta_zone_emploi.csv", sep=",", dec=".")
+mortalite <- en_numerique(mortalite, c(
+  "Taux.de.mortalité.annuel.moyen.2016.2022",
+  "Densité.de.population..historique.depuis.1876..2022",
+  "Population.municipale..historique.depuis.1876..2022",
+  "Évol..annuelle.moy..de.la.population.2016.2022"
+))
+summary(mortalite)
+```
+
+## Médecins généralistes
+
+```{r medecin}
+medecin <- read.csv(file = "DesMed_Zone_Emploi.csv", sep=",", dec=".")
+medecin <- en_numerique(medecin, c(
+  "Code",
+  "Evolution.du.nbre.de.géné.lib..sur.5.ans.2024",
+  "APL.Médecins.généralistes.2023"
+))
+summary(medecin)
+```
+
+## Pharmacies
+
+```{r pharmacie}
+pharmacie <-  read.csv(file = "pharmacie_zoneEmploi.csv", sep=",", dec=".")
+pharmacie <- en_numerique(pharmacie, c(
+  "Code",
+  "Evolution.du.nombre.de.pharmacies.sur.5.ans.2024",
+  "Densité.des.pharmacies.pour.10.000.hab..2024"
+))
+summary(pharmacie)
+```
+
+## Infirmiers
+
+```{r infirmier}
+infirmier <- read.csv(file = "infirmier_zoneEmploi.csv", sep=",", dec=".")
+infirmier <- en_numerique(infirmier, c(
+  "Code",
+  "APL.infirmiers.65.ans.et.moins.2023",
+  "Evolution.du.nbre.d.inf..lib..sur.5.ans.2024"
+))
+summary(infirmier)
+```
+
+## Dentistes
+
+```{r dentiste}
+dentiste <- read.csv(file = "dentiste_zoneEmploi.csv", sep=",", dec=".")
+dentiste <- en_numerique(dentiste, c(
+  "Code",
+  "Ratio.bénéf..dent....bénéf..géné..2024",
+  "Evolution.du.nbre.de.dent..lib..sur.5.ans.2024",
+  "APL.CD.de.65.ans.et.moins.2023"
+))
+summary(dentiste)
+```
+
+# 2. Jeu de données de l'analyse
+
+On regroupe, pour chaque zone d'emploi, le taux de mortalité et les indicateurs d'accessibilité aux soins. Les fichiers sont supposés être dans le même ordre de zones d'emploi.
+
+```{r donnees}
+n_zones <- nrow(mortalite)
+
+donnees_apl <- data.frame(
+  Code       = mortalite$Code,
+  Mortalite  = mortalite$Taux.de.mortalité.annuel.moyen.2016.2022,
+  Medecin    = medecin$APL.Médecins.généralistes.2023[1:n_zones],
+  Pharmacie  = pharmacie$Densité.des.pharmacies.pour.10.000.hab..2024[1:n_zones],
+  Infirmiers = infirmier$APL.infirmiers.65.ans.et.moins.2023[1:n_zones],
+  dentiste  = dentiste$APL.CD.de.65.ans.et.moins.2023[1:n_zones]
+)
+
+# On retire les zones avec au moins une valeur manquante
+donnees_apl <- na.omit(donnees_apl)
+
+# Sauvegarde facultative du jeu de données final
+# write.csv(donnees_apl, "data/DonneesAPL.csv", row.names = FALSE)
+
+head(donnees_apl)
+```
+
+# 3. Corrélations
+
+```{r correlation}
+matrice_cor <- cor(donnees_apl[, -1])
+matrice_cor
+
+ggcorrplot(matrice_cor, hc.order = TRUE, type = "lower", lab = TRUE)
+```
+
+# 4. Régressions : mortalité en fonction de l'accessibilité aux soins
+
+Pour chaque indicateur : régression linéaire simple, diagnostics du modèle et nuage de points avec droite de régression.
+
+```{r regressions, fig.height=5}
+analyser <- function(variable, libelle) {
+  modele <- lm(reformulate(variable, response = "Mortalite"), data = donnees_apl)
+
+  cat("\n=====", libelle, "=====\n")
+  print(summary(modele))
+
+  # Diagnostics du modèle
+  par(mfrow = c(2, 2))
+  plot(modele)
+  par(mfrow = c(1, 1))
+
+  # Nuage de points et droite de régression
+  graphique <- ggplot(donnees_apl, aes(x = .data[[variable]], y = Mortalite)) +
+    geom_point() +
+    geom_smooth(method = "lm", formula = y ~ x, colour = "red", se = FALSE) +
+    labs(
+      title = paste("Taux de mortalité en fonction de", libelle),
+      x = libelle,
+      y = "Taux de mortalité"
+    )
+  print(graphique)
+
+  invisible(modele)
+}
+
+indicateurs <- c(
+  Medecin    = "l'APL des médecins généralistes",
+  Pharmacie  = "la densité des pharmacies",
+  Infirmiers = "l'APL des infirmiers",
+  dentiste  = "l'APL des dentistes"
+)
+
+for (variable in names(indicateurs)) {
+  analyser(variable, indicateurs[[variable]])
+}
+```
+
+# 5. Résumé descriptif des variables
+
+```{r resume}
+gt_plt_summary(donnees_apl)
+```

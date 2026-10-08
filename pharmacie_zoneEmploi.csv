@@ -1,0 +1,309 @@
+Code,Libellé,Nbre de Pharmacies 2024,Densité des pharmacies pour 10 000 hab. 2024,Evolution du nombre de pharmacies sur 5 ans 2024
+51,Alençon,29,2.3,-7
+52,Arles,51,3.6,0
+53,Avignon,97,3.4,-2
+54,Beauvais,68,2.4,-2
+55,Bollène-Pierrelatte,21,2.6,-3
+56,Cosne-Cours-sur-Loire,24,3.6,-3
+57,Dreux,29,2,0
+58,La Vallée de la Bresle-Vimeu,25,3.3,-2
+59,Mâcon,47,2.8,-5
+60,Nevers,57,3.6,-6
+61,Nogent-le-Rotrou,20,3.1,-2
+62,Redon,25,2.9,-2
+63,Ussel,39,4.9,-4
+64,Valréas,21,3.4,-2
+101,Côte sous le vent,5,3.1,0
+102,Est Grande Terre,20,3.6,-1
+103,Marie-Galante,5,4.8,0
+104,Région Pointoise,91,3.9,-2
+105,Sud Basse-Terre,27,3.9,-2
+201,Le Centre-Atlantique,23,4,-1
+202,Le Centre agglomération,60,4,-4
+203,Le Nord-Atlantique,6,3.8,0
+204,Le Nord-Caraibe,8,3.6,-1
+205,Le Sud,17,3.5,-2
+206,Le Sud-Caraibe,20,3,0
+301,Est-littoral,33,2.1,2
+302,Ouest-Guyanais,11,1.1,-1
+303,Savanes,6,2.1,-1
+401,L'Est,38,2.9,0
+402,L'Ouest,64,2.9,0
+403,Le Nord,62,2.9,-1
+404,Le Sud,82,2.6,0
+601,Mayotte,26,1,2
+1101,Cergy-Vexin,153,2.4,-7
+1102,Coulommiers,17,2.3,-1
+1103,Étampes,25,2.3,-1
+1104,Évry-Courcouronnes,144,2.3,-12
+1105,Fontainebleau-Nemours,57,2.8,-5
+1106,Marne-la-Vallée,119,2.4,1
+1107,Meaux,48,2.2,-2
+1108,Melun,45,2.2,-3
+1109,Paris,2082,3.1,-91
+1110,Provins,14,2.4,-1
+1111,Rambouillet,18,2.3,-1
+1112,Roissy,244,2.6,-8
+1113,Saclay,141,2.5,-6
+1114,Seine-Yvelinoise,200,2.4,-10
+1115,Versailles-Saint-Quentin,161,2.7,-9
+2401,Blois,47,2.7,-3
+2402,Bourges,64,3.2,-8
+2403,Chartres,52,2.5,-6
+2404,Châteaudun,18,3.1,-1
+2405,Châteauroux,70,3.6,-4
+2406,Chinon,14,3.2,-2
+2407,Gien,23,2.9,-2
+2408,Loches,23,4.2,-1
+2409,Montargis,31,2.4,-5
+2410,Orléans,112,2.5,-10
+2411,Pithiviers,17,2.5,-1
+2412,Romorantin-Lanthenay,31,3.3,-5
+2413,Tours,158,3,-4
+2414,Vendôme,21,3.3,-2
+2415,Vierzon,18,3.8,0
+2701,Autun,17,4.1,-3
+2702,Auxerre,49,2.7,-10
+2703,Avallon,19,3.8,-3
+2704,Beaune,25,3.2,-2
+2705,Belfort,61,3.2,-4
+2706,Besançon,98,3,-4
+2707,Chalon-sur-Saône,45,2.8,-4
+2708,Charolais,25,2.9,-3
+2709,Châtillon-Montbard,22,3.7,-1
+2710,Creusot-Montceau,35,3.6,-9
+2711,Dijon,116,2.9,-6
+2712,Dole,25,3,-1
+2713,Lons-le-Saunier,56,3.5,-3
+2714,Montbéliard,60,3.6,-6
+2715,Pontarlier,35,2.8,-1
+2716,Saint-Claude,16,3.1,-1
+2717,Sens,32,2.8,-1
+2718,Vesoul,51,4,-1
+2801,Argentan,13,3.1,-1
+2802,Avranches,21,2.4,-4
+2803,Bernay,18,2.6,-1
+2804,Caen,153,2.8,-10
+2805,Cherbourg-en-Cotentin,47,2.5,-6
+2806,Coutances,17,2.6,-1
+2807,Dieppe-Caux maritime,42,2.9,-1
+2808,Évreux,40,2.2,-4
+2809,Flers,28,3,-5
+2810,Granville,17,3.1,-1
+2811,Honfleur Pont-Audemer,31,3,0
+2812,L'Aigle,16,3.6,-1
+2813,Le Havre,86,2.7,-5
+2814,Lisieux,23,3.1,-2
+2815,Rouen,201,2.7,-9
+2816,Saint-Lô,35,3.3,0
+2817,Vernon-Gisors,29,2.2,-2
+2818,Vire Normandie,12,2.7,-2
+2819,Yvetot-Vallée du Commerce,24,2,-1
+3201,Abbeville,30,3.2,-2
+3202,Amiens,121,3.1,-5
+3203,Arras,59,3.2,-1
+3204,Berck,46,3.6,-2
+3205,Béthune,84,3.1,-1
+3206,Boulogne-sur-Mer,61,3.7,-3
+3207,Calais,48,3.3,-2
+3208,Cambrai,61,4,-4
+3209,Château-Thierry,20,2.8,-2
+3210,Compiègne,56,2.8,-4
+3211,Creil,79,2.6,-8
+3212,Douai,80,3.3,-4
+3213,Dunkerque,101,3.7,-8
+3214,Laon,32,3.1,-1
+3215,Lens,126,3.2,-11
+3216,Lille,302,3.2,-12
+3217,Maubeuge,79,3.3,-5
+3218,Roubaix-Tourcoing,135,3.3,-4
+3219,Saint-Omer,52,3,-3
+3220,Saint-Quentin,86,3.5,-6
+3221,Soissons,45,2.7,-2
+3222,Valenciennes,123,3.1,-9
+4401,Bar-le-Duc,23,3.5,-2
+4402,Châlons-en-Champagne,31,2.9,-3
+4403,Charleville-Mézières,58,3.8,0
+4404,Chaumont,41,3.4,-3
+4405,Colmar,51,2.4,-1
+4406,Épernay,29,3.5,0
+4407,Épinal,59,3.2,-7
+4408,Forbach,29,2.7,-1
+4409,Haguenau,59,2.3,0
+4410,Metz,114,2.5,-3
+4411,Mulhouse,112,2.6,1
+4412,Nancy,191,3.4,-6
+4413,Reims,105,3.2,-3
+4414,Remiremont,33,3.9,-3
+4415,Romilly-sur-Seine,23,2.8,-1
+4416,Saint-Avold,29,2.4,-1
+4417,Saint-Dié-des-Vosges,30,3.5,-3
+4418,Saint-Louis,20,1.8,0
+4419,Sarrebourg,29,2.6,0
+4420,Sarreguemines,35,2.8,1
+4421,Sedan,39,4.1,-1
+4422,Sélestat,27,2.6,0
+4423,Strasbourg,178,2.4,0
+4424,Thionville,97,2.6,0
+4425,Troyes,69,2.6,-5
+4426,Verdun,23,3,-1
+4427,Vitry-le-François Saint-Dizier,39,3.4,-3
+5201,Ancenis,31,2.6,-1
+5202,Angers,111,2.7,-5
+5203,Challans,49,3.1,0
+5204,Château-Gontier-sur-Mayenne,11,2.6,-2
+5205,Châteaubriant,17,3,-2
+5206,Cholet,51,2.7,-4
+5207,Fontenay-le-Comte,41,3.3,-2
+5208,La Ferté-Bernard,20,2.9,-3
+5209,La Flèche,16,2.7,-2
+5210,La Roche-sur-Yon,45,2.5,-1
+5211,Laval,47,2.9,-3
+5212,Le Mans,98,2.6,-10
+5213,Les Herbiers-Montaigu,43,2.9,-3
+5214,Les Sables-d'Olonne,30,3.3,-1
+5215,Mayenne,20,2.4,0
+5216,Nantes,241,2.4,-16
+5217,Pornic,25,3,0
+5218,Sablé-sur-Sarthe,18,3.2,-2
+5219,Saint-Nazaire,83,3.2,-3
+5220,Saumur,33,3.4,-2
+5221,Segré-en-Anjou Bleu,15,2.7,-2
+5301,Auray,31,3.2,-1
+5302,Brest,117,2.8,-8
+5303,Carhaix-Plouguer,22,2.8,-4
+5304,Dinan,29,2.8,0
+5305,Fougères,27,3.2,-5
+5306,Guingamp,21,3.5,-1
+5307,Lamballe-Armor,21,2.9,-2
+5308,Lannion,41,3.5,-2
+5309,Lorient,76,3.3,-8
+5310,Morlaix,37,2.9,-4
+5311,Ploërmel,20,2.6,0
+5312,Pontivy-Loudéac,35,2.9,-4
+5313,Quimper,102,3.4,-5
+5314,Quimperlé,19,3.2,0
+5315,Rennes,176,2.4,-4
+5316,Saint-Brieuc,56,2.9,-6
+5317,Saint-Malo,51,3.3,-2
+5318,Vannes,61,2.6,-1
+5319,Vitré,24,2.5,-3
+7501,Agen,48,3.4,-3
+7502,Angoulême,79,3.3,-6
+7503,Bayonne,131,3.6,0
+7504,Bergerac,39,3.3,-4
+7505,Bordeaux,368,3.1,-11
+7506,Bressuire,36,3,-2
+7507,Brive-la-Gaillarde,53,3.9,-1
+7508,Châtellerault,31,3.5,-2
+7509,Cognac,46,3.4,-2
+7510,Dax,53,3.1,-3
+7511,Guéret,57,4.8,-5
+7512,La Rochelle,80,3,-5
+7513,La Teste-de-Buch,50,2.9,-2
+7514,Langon,39,3.1,-2
+7515,Lesparre-Médoc,21,2.9,-5
+7516,Libourne,46,2.9,-5
+7517,Limoges,116,3.7,-8
+7518,Marmande,37,3.6,-1
+7519,Mont-de-Marsan,45,3.2,-3
+7520,Niort,73,3.3,-1
+7521,Oloron-Sainte-Marie,27,3.8,-1
+7522,Pau,103,3.2,-6
+7523,Périgueux,69,3.2,-13
+7524,Poitiers,98,3,-4
+7525,Rochefort,24,3.1,-1
+7526,Royan,48,3.7,0
+7527,Saint-Junien,38,4.4,-1
+7528,Saintes,41,3.1,-1
+7529,Sarlat-la-Canéda,22,3.5,0
+7530,Thouars,22,3.3,-2
+7531,Tulle,35,4.2,-4
+7532,Villeneuve-sur-Lot,33,3.5,-2
+7601,Agde-Pézenas,29,3.4,0
+7602,Albi,79,3.2,-4
+7603,Alès-Le Vigan,72,3.6,-5
+7604,Auch,57,3.6,-3
+7605,Bagnols-sur-Cèze,21,2.7,-3
+7606,Béziers,87,3.6,-2
+7607,Cahors,30,3.4,-2
+7608,Carcassonne-Limoux,79,3.9,-3
+7609,Castelsarrasin-Moissac,21,2.7,-5
+7610,Castres-Mazamet,55,3.4,-1
+7611,Figeac-Villefranche,31,3.3,-5
+7612,Foix-Pamiers,42,3.1,-4
+7613,Mende,33,4.6,-3
+7614,Millau,26,3.9,0
+7615,Montauban,51,2.6,-3
+7616,Montpellier,225,2.9,-5
+7617,Narbonne,60,3.5,-1
+7618,Nîmes,119,3,-4
+7619,Nord-du-Lot,22,4,-3
+7620,Perpignan,171,3.4,-3
+7621,Rodez,57,3.8,-3
+7622,Saint-Gaudens,44,3.4,-4
+7623,Sète,44,3.9,0
+7624,Tarbes-Lourdes,88,3.6,-15
+7625,Toulouse,363,2.7,-7
+8401,Annecy,79,2.5,-1
+8402,Aubenas,41,3,-7
+8403,Aurillac,35,4.1,-3
+8404,Belley,16,3,1
+8405,Bourg-en-Bresse,64,2.4,-2
+8406,Bourgoin-Jallieu,57,2.3,-1
+8407,Chambéry,69,2.7,1
+8408,Clermont-Ferrand,158,3.2,-6
+8409,Grenoble,199,3.2,-11
+8410,Issoire,35,4.1,-2
+8411,La Maurienne,20,5.2,0
+8412,La Plaine du Forez,21,2.3,-2
+8413,La Tarentaise,47,4.1,-1
+8414,La Vallée de l'Arve,26,2.8,-1
+8415,Le Chablais,36,3.1,0
+8416,Le Genevois Français,84,2.1,-1
+8417,Le Livradois,29,3.4,-7
+8418,Le Mont Blanc,26,4.2,-2
+8419,Le Puy-en-Velay,43,3.6,-3
+8420,Les Sources de la Loire,24,2.8,-2
+8421,Lyon,520,2.7,-33
+8422,Montélimar,29,2.8,0
+8423,Montluçon,44,3.8,-10
+8424,Moulins,39,4,-4
+8425,Oyonnax,17,3,-1
+8426,Roanne,42,3.1,-8
+8427,Romans-sur-Isère,28,2.8,-1
+8428,Saint-Étienne,151,2.7,-21
+8429,Saint-Flour,16,4.7,0
+8430,Tarare,16,2.8,-1
+8431,Valence,89,3,-4
+8432,Vichy,49,3.4,-5
+8433,Vienne-Annonay,69,2.7,-5
+8434,Villefranche-sur-Saône,45,2.4,-2
+8435,Voiron,55,2.7,-4
+9301,Aix-en-Provence,124,3,-1
+9302,Briançon,18,5.4,-2
+9303,Brignoles,35,2.5,-1
+9304,Cannes,166,3.8,-4
+9305,Carpentras,30,3,-1
+9306,Cavaillon,46,3.7,0
+9307,Digne-les-Bains,32,3.8,-1
+9308,Draguignan,32,2.6,-1
+9309,Fréjus,41,3.4,0
+9310,Gap,37,3.5,-1
+9311,Manosque,28,3,0
+9312,Marseille,480,3.8,-10
+9313,Martigues-Salon,96,3,-2
+9314,Menton,33,4.1,-1
+9315,Nice,248,3.9,-7
+9316,Orange,23,3.3,-1
+9317,Sainte-Maxime,23,4,0
+9318,Toulon,217,3.7,-4
+9401,Ajaccio,44,3.6,-3
+9402,Bastia,47,3.8,-2
+9403,Calvi,9,3.8,1
+9404,Corte,6,3.6,-1
+9405,Ghisonaccia,7,3.6,0
+9406,Porto-Vecchio,8,2.8,0
+9407,Propriano,7,4.9,-1
+977Z,St-Barthélémy,3,2.8,N/A - résultat non disponible
+978Z,St-Martin,11,3.5,N/A - résultat non disponible

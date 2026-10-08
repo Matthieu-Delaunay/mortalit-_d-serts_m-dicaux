@@ -1,0 +1,309 @@
+Code,Libellé,Nbre de généralistes lib. au 31/12 2024,Densité de généralistes lib. 2024,Evolution du nbre de géné lib. sur 5 ans 2024,APL Médecins généralistes 2023
+51,Alençon,68,5.5,-9,2.9
+52,Arles,128,9.1,-14,3.9
+53,Avignon,251,8.7,-39,4.1
+54,Beauvais,165,5.8,-3,2.9
+55,Bollène-Pierrelatte,46,5.8,-7,2.8
+56,Cosne-Cours-sur-Loire,40,6,-5,2.5
+57,Dreux,58,3.9,-12,2.1
+58,La Vallée de la Bresle-Vimeu,56,7.3,-10,3.6
+59,Mâcon,112,6.7,-17,3.3
+60,Nevers,87,5.6,-18,2.6
+61,Nogent-le-Rotrou,37,5.8,-6,2.5
+62,Redon,49,5.8,-6,2.8
+63,Ussel,56,7.1,-7,3.4
+64,Valréas,55,8.8,-12,3.6
+101,Côte sous le vent,14,8.8,1,2.6
+102,Est Grande Terre,46,8.3,2,3
+103,Marie-Galante,8,7.7,-1,3.2
+104,Région Pointoise,190,8.2,4,3.7
+105,Sud Basse-Terre,62,9,7,3.1
+201,Le Centre-Atlantique,45,7.8,-5,3.4
+202,Le Centre agglomération,164,10.9,13,4.4
+203,Le Nord-Atlantique,8,5.1,0,2.3
+204,Le Nord-Caraibe,24,10.7,8,2.6
+205,Le Sud,38,7.7,0,2.9
+206,Le Sud-Caraibe,52,7.9,7,3.4
+301,Est-littoral,72,4.5,0,2.4
+302,Ouest-Guyanais,16,1.6,-6,1.1
+303,Savanes,10,3.4,-9,2.1
+401,L'Est,107,8.3,1,4.1
+402,L'Ouest,268,12.2,21,6.2
+403,Le Nord,197,9.1,2,4.8
+404,Le Sud,358,11.3,33,5.9
+601,Mayotte,32,1.2,-1,N/A - résultat non disponible
+1101,Cergy-Vexin,377,5.8,-39,2.6
+1102,Coulommiers,32,4.2,-7,2.1
+1103,Étampes,52,4.7,-16,2.3
+1104,Évry-Courcouronnes,345,5.6,-57,2.5
+1105,Fontainebleau-Nemours,117,5.8,-12,2.6
+1106,Marne-la-Vallée,296,6.1,-8,2.6
+1107,Meaux,112,5.2,-15,2.4
+1108,Melun,94,4.5,-28,1.9
+1109,Paris,4758,7.1,-491,3.9
+1110,Provins,21,3.7,-7,2
+1111,Rambouillet,46,5.8,-8,2.8
+1112,Roissy,492,5.1,-35,2.4
+1113,Saclay,300,5.4,-39,2.6
+1114,Seine-Yvelinoise,454,5.5,-83,2.4
+1115,Versailles-Saint-Quentin,385,6.4,-37,2.7
+2401,Blois,122,7,-24,3.1
+2402,Bourges,111,5.5,-21,2.3
+2403,Chartres,114,5.4,-31,2.6
+2404,Châteaudun,29,5,-3,2.3
+2405,Châteauroux,107,5.4,-17,2.7
+2406,Chinon,41,9.3,1,4
+2407,Gien,41,5.1,-13,2.6
+2408,Loches,49,9.1,-1,3.3
+2409,Montargis,47,3.7,-19,2.1
+2410,Orléans,291,6.5,-18,2.9
+2411,Pithiviers,29,4.3,-7,1.8
+2412,Romorantin-Lanthenay,52,5.6,-17,2.7
+2413,Tours,507,9.7,12,4.2
+2414,Vendôme,38,5.9,0,2.2
+2415,Vierzon,18,3.8,-11,1.8
+2701,Autun,31,7.6,-5,3
+2702,Auxerre,104,5.8,-24,2.7
+2703,Avallon,32,6.4,-5,2.8
+2704,Beaune,78,10,3,3.9
+2705,Belfort,125,6.5,-26,3.3
+2706,Besançon,372,11.6,9,4.7
+2707,Chalon-sur-Saône,108,6.8,-10,3.2
+2708,Charolais,40,4.7,-19,2.3
+2709,Châtillon-Montbard,40,6.7,-1,2.9
+2710,Creusot-Montceau,42,4.3,-18,2.3
+2711,Dijon,397,9.8,-10,4.2
+2712,Dole,74,8.9,-5,4.1
+2713,Lons-le-Saunier,109,6.9,-23,3.2
+2714,Montbéliard,117,7,-18,3.6
+2715,Pontarlier,86,6.8,-8,3.3
+2716,Saint-Claude,36,7,1,3.1
+2717,Sens,51,4.5,-13,2.4
+2718,Vesoul,109,8.6,4,3.9
+2801,Argentan,24,5.8,-2,2.8
+2802,Avranches,56,6.3,-1,2.7
+2803,Bernay,41,5.9,-3,2.6
+2804,Caen,529,9.8,16,4.6
+2805,Cherbourg-en-Cotentin,119,6.4,-10,2.9
+2806,Coutances,44,6.9,-2,3.2
+2807,Dieppe-Caux maritime,108,7.4,-15,3.5
+2808,Évreux,83,4.5,-26,2.2
+2809,Flers,53,5.7,-9,2.7
+2810,Granville,50,9.2,-2,4.1
+2811,Honfleur Pont-Audemer,82,7.8,-1,3.4
+2812,L'Aigle,28,6.3,0,2.8
+2813,Le Havre,234,7.3,-20,3.4
+2814,Lisieux,38,5.1,-11,2.6
+2815,Rouen,672,9.1,-19,4.2
+2816,Saint-Lô,81,7.5,-8,3.1
+2817,Vernon-Gisors,57,4.3,-23,2.3
+2818,Vire Normandie,21,4.8,-7,3
+2819,Yvetot-Vallée du Commerce,69,5.9,-2,3.2
+3201,Abbeville,79,8.6,-2,4
+3202,Amiens,386,10,-12,4.9
+3203,Arras,145,8,-10,4.1
+3204,Berck,118,9.3,-6,4.5
+3205,Béthune,192,7,-20,3.7
+3206,Boulogne-sur-Mer,160,9.7,-11,4.5
+3207,Calais,95,6.6,-19,3.5
+3208,Cambrai,87,5.7,-31,3.2
+3209,Château-Thierry,39,5.4,-5,2.9
+3210,Compiègne,133,6.6,-15,3.3
+3211,Creil,175,5.8,-30,2.9
+3212,Douai,178,7.3,-37,3.9
+3213,Dunkerque,189,6.9,-33,3.4
+3214,Laon,58,5.6,-5,2.9
+3215,Lens,286,7.3,-21,4.9
+3216,Lille,1030,10.9,8,5.4
+3217,Maubeuge,142,5.8,-32,3.2
+3218,Roubaix-Tourcoing,397,9.6,-27,5
+3219,Saint-Omer,120,7,-24,3.5
+3220,Saint-Quentin,172,6.9,-19,3.5
+3221,Soissons,96,5.8,-6,2.8
+3222,Valenciennes,329,8.4,-37,4.5
+4401,Bar-le-Duc,52,7.8,-5,3.4
+4402,Châlons-en-Champagne,71,6.6,-6,3.4
+4403,Charleville-Mézières,110,7.1,-19,3.5
+4404,Chaumont,80,6.5,-16,3.1
+4405,Colmar,183,8.8,-2,4
+4406,Épernay,63,7.6,-1,3.7
+4407,Épinal,146,7.9,-5,3.8
+4408,Forbach,44,4.1,-11,3.6
+4409,Haguenau,227,8.9,-13,4.2
+4410,Metz,394,8.8,-19,4.3
+4411,Mulhouse,322,7.4,-37,3.5
+4412,Nancy,573,10.3,-46,4.7
+4413,Reims,346,10.5,5,4.8
+4414,Remiremont,68,8.1,-12,3.5
+4415,Romilly-sur-Seine,44,5.3,-8,2.7
+4416,Saint-Avold,74,6,-13,3.3
+4417,Saint-Dié-des-Vosges,64,7.4,-9,3.7
+4418,Saint-Louis,67,6,-8,2.8
+4419,Sarrebourg,82,7.4,-4,3.5
+4420,Sarreguemines,82,6.6,-13,3.1
+4421,Sedan,64,6.8,-16,3.2
+4422,Sélestat,106,10,-2,4.4
+4423,Strasbourg,852,11.3,-3,5.3
+4424,Thionville,223,6,-18,3.4
+4425,Troyes,172,6.6,-6,3.3
+4426,Verdun,62,8.1,-1,3.8
+4427,Vitry-le-François Saint-Dizier,67,5.9,-21,3.1
+5201,Ancenis,76,6.5,2,2.9
+5202,Angers,454,11,1,4.8
+5203,Challans,106,6.7,-8,3.1
+5204,Château-Gontier-sur-Mayenne,26,6.1,-2,3.3
+5205,Châteaubriant,34,6,1,2.8
+5206,Cholet,127,6.7,-11,3.2
+5207,Fontenay-le-Comte,74,5.9,1,2.7
+5208,La Ferté-Bernard,23,3.4,-8,2.1
+5209,La Flèche,46,7.7,6,3.1
+5210,La Roche-sur-Yon,106,5.9,-8,3
+5211,Laval,97,6,-3,3.1
+5212,Le Mans,229,6.1,-30,2.9
+5213,Les Herbiers-Montaigu,83,5.6,-5,2.8
+5214,Les Sables-d'Olonne,75,8.2,9,3.5
+5215,Mayenne,40,4.9,-9,2.3
+5216,Nantes,964,9.7,12,4.3
+5217,Pornic,60,7.1,-18,3.3
+5218,Sablé-sur-Sarthe,34,6,-4,3
+5219,Saint-Nazaire,238,9.1,-12,3.7
+5220,Saumur,69,7,-5,3.2
+5221,Segré-en-Anjou Bleu,42,7.5,1,3.3
+5301,Auray,119,12.3,8,4.6
+5302,Brest,461,11.2,25,4.6
+5303,Carhaix-Plouguer,64,8,-5,3.1
+5304,Dinan,83,8.1,1,3.5
+5305,Fougères,50,5.9,-7,2.6
+5306,Guingamp,37,6.2,-4,2.9
+5307,Lamballe-Armor,44,6.1,-3,3
+5308,Lannion,106,8.9,-1,3.5
+5309,Lorient,236,10.2,7,4.4
+5310,Morlaix,102,7.9,-1,3.7
+5311,Ploërmel,62,8,3,3.2
+5312,Pontivy-Loudéac,66,5.5,-7,2.9
+5313,Quimper,320,10.8,31,4.2
+5314,Quimperlé,60,10,8,3.8
+5315,Rennes,693,9.4,-19,4.3
+5316,Saint-Brieuc,129,6.8,-20,3.2
+5317,Saint-Malo,163,10.5,12,4.5
+5318,Vannes,268,11.4,36,4.7
+5319,Vitré,72,7.4,8,3.1
+7501,Agen,91,6.5,-21,3.3
+7502,Angoulême,155,6.4,-29,3.2
+7503,Bayonne,494,13.4,65,5.2
+7504,Bergerac,69,5.8,-19,2.9
+7505,Bordeaux,1377,11.5,49,5.2
+7506,Bressuire,65,5.5,-8,2.6
+7507,Brive-la-Gaillarde,97,7.1,-24,3.2
+7508,Châtellerault,66,7.6,-10,3.6
+7509,Cognac,98,7.3,-16,3.2
+7510,Dax,186,10.9,9,4.3
+7511,Guéret,81,6.8,-17,3
+7512,La Rochelle,327,12.3,19,5.1
+7513,La Teste-de-Buch,181,10.5,12,4.5
+7514,Langon,140,11.1,12,4.3
+7515,Lesparre-Médoc,69,9.4,5,4.1
+7516,Libourne,126,8,-6,3.7
+7517,Limoges,323,10.2,-55,4.2
+7518,Marmande,50,4.9,-11,2.9
+7519,Mont-de-Marsan,128,9.2,4,3.8
+7520,Niort,164,7.5,-21,3.3
+7521,Oloron-Sainte-Marie,70,9.9,0,4.1
+7522,Pau,311,9.6,6,4.2
+7523,Périgueux,163,7.5,-18,3.2
+7524,Poitiers,311,9.6,-6,4.3
+7525,Rochefort,73,9.4,-2,3.9
+7526,Royan,117,9.1,12,3.5
+7527,Saint-Junien,67,7.8,-9,3.3
+7528,Saintes,123,9.4,-1,3.9
+7529,Sarlat-la-Canéda,48,7.6,-7,3.4
+7530,Thouars,40,6,-5,2.9
+7531,Tulle,60,7.2,-7,3
+7532,Villeneuve-sur-Lot,50,5.4,-6,2.7
+7601,Agde-Pézenas,64,7.6,-18,3.8
+7602,Albi,193,7.8,-30,3.5
+7603,Alès-Le Vigan,126,6.4,-42,3.4
+7604,Auch,137,8.6,-21,3.5
+7605,Bagnols-sur-Cèze,43,5.6,-9,2.6
+7606,Béziers,194,8.1,-30,3.7
+7607,Cahors,62,7,-20,3.2
+7608,Carcassonne-Limoux,141,7,-32,3.1
+7609,Castelsarrasin-Moissac,42,5.4,-16,2.9
+7610,Castres-Mazamet,121,7.4,-14,3.2
+7611,Figeac-Villefranche,63,6.6,-14,3.1
+7612,Foix-Pamiers,118,8.6,-9,3.8
+7613,Mende,42,5.9,-17,2.9
+7614,Millau,55,8.2,-1,3.2
+7615,Montauban,143,7.4,-16,3.5
+7616,Montpellier,868,11,9,4.7
+7617,Narbonne,156,9.2,-9,4
+7618,Nîmes,351,9,-33,3.9
+7619,Nord-du-Lot,43,7.9,-5,3.2
+7620,Perpignan,477,9.6,-93,4.1
+7621,Rodez,128,8.6,4,3.7
+7622,Saint-Gaudens,90,7,-15,3.3
+7623,Sète,133,11.9,-13,4.8
+7624,Tarbes-Lourdes,205,8.5,-37,3.8
+7625,Toulouse,1381,10.2,-15,4.5
+8401,Annecy,343,10.8,6,4.4
+8402,Aubenas,95,6.9,-15,2.9
+8403,Aurillac,84,9.9,4,4.1
+8404,Belley,45,8.5,1,2.8
+8405,Bourg-en-Bresse,192,7.2,-16,2.8
+8406,Bourgoin-Jallieu,177,7.2,-19,3.6
+8407,Chambéry,289,11.3,25,4.5
+8408,Clermont-Ferrand,448,9.1,-32,4.2
+8409,Grenoble,618,10,-44,4.4
+8410,Issoire,85,10,5,4.1
+8411,La Maurienne,35,9.1,-5,4.1
+8412,La Plaine du Forez,65,7.2,4,3
+8413,La Tarentaise,125,11,6,4.1
+8414,La Vallée de l'Arve,72,7.8,-1,3.2
+8415,Le Chablais,87,7.4,-10,3
+8416,Le Genevois Français,195,4.8,-38,2.4
+8417,Le Livradois,47,5.6,-8,2.7
+8418,Le Mont Blanc,77,12.6,-2,4.9
+8419,Le Puy-en-Velay,103,8.7,-6,3.3
+8420,Les Sources de la Loire,78,9.2,10,3.8
+8421,Lyon,1711,9,-51,4
+8422,Montélimar,87,8.3,-9,3.3
+8423,Montluçon,76,6.6,-26,2.8
+8424,Moulins,80,8.2,0,3.4
+8425,Oyonnax,24,4.2,-7,2.2
+8426,Roanne,102,7.6,-3,2.9
+8427,Romans-sur-Isère,83,8.4,-4,3.7
+8428,Saint-Étienne,484,8.8,-44,3.8
+8429,Saint-Flour,27,8,-1,3.3
+8430,Tarare,23,4,-6,2.3
+8431,Valence,243,8.2,-35,3.5
+8432,Vichy,110,7.6,-2,3.2
+8433,Vienne-Annonay,164,6.5,-25,3
+8434,Villefranche-sur-Saône,146,7.9,0,3.3
+8435,Voiron,171,8.5,-1,3.3
+9301,Aix-en-Provence,461,11.1,-7,4.4
+9302,Briançon,46,13.7,7,5.9
+9303,Brignoles,84,6,-15,2.9
+9304,Cannes,474,10.8,-2,4.4
+9305,Carpentras,60,6.1,-11,2.9
+9306,Cavaillon,102,8.1,-4,3.5
+9307,Digne-les-Bains,68,8.2,-14,3.3
+9308,Draguignan,84,6.8,-10,3.5
+9309,Fréjus,109,9,-7,3.4
+9310,Gap,132,12.3,1,4.8
+9311,Manosque,95,10.3,-9,3.8
+9312,Marseille,1405,11.2,-55,4.9
+9313,Martigues-Salon,238,7.5,-26,3.6
+9314,Menton,78,9.6,-11,3.5
+9315,Nice,694,11,-36,4.4
+9316,Orange,42,6,-8,3.1
+9317,Sainte-Maxime,58,10,1,4.3
+9318,Toulon,664,11.2,-15,4.2
+9401,Ajaccio,111,9,2,3.6
+9402,Bastia,114,9.1,-6,3.8
+9403,Calvi,20,8.5,3,3.6
+9404,Corte,15,9,2,3.4
+9405,Ghisonaccia,16,8.1,4,3.5
+9406,Porto-Vecchio,33,11.6,6,5.3
+9407,Propriano,14,9.7,2,3.8
+977Z,St-Barthélémy,6,5.7,N/A - résultat non disponible,N/A - résultat non disponible
+978Z,St-Martin,25,7.9,N/A - résultat non disponible,N/A - résultat non disponible
